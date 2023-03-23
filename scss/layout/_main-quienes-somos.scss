@@ -1,0 +1,98 @@
+/***** sector 1 ******/
+.sec1-quienessomos{
+    @include medidas (100%,auto);
+    @include flex(center, left);
+    padding-left: 200px;
+    gap: 492px;
+    @include margin (1%,1%);
+    div{
+        h1{
+          @include titulo;
+          font-size: 40px;
+        }
+    }
+} 
+/***** sector 2 ******/
+.sec2-quienessomos{
+    @include medidas (100%,auto);
+    @include flex(center,center);
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    div{
+        h2{
+          @include titulo;
+          color:$color-texto-principal;
+          padding-bottom: 10%; 
+          font-size: 60px;
+        }
+    }
+    div{
+        img{
+            @include medidas (100%,auto);
+            margin: 0; 
+        }
+    }  
+}        
+/**
+ * ----------------------------------------
+ * animation rotate-scale-up
+ * ----------------------------------------
+ */
+.rotate-scale-up {
+	-webkit-animation: rotate-scale-up 0.65s linear reverse ;
+	animation: rotate-scale-up 0.65s linear reverse ;
+}
+@-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  
+/******* sector 3****** */
+.sec3-quienessomos{
+          @include medidas (100%,auto);
+          @include flex(center,center);
+          flex-wrap: wrap;
+          gap: 0;
+          padding-left: 10%;
+          padding-right: 10%;
+                  div{
+                      p{
+                        @include medidas (100%,auto);
+                        @include titulos-secundarios;
+                        margin-bottom: 5%;
+                      }         
+                          p::first-letter{
+                          color:$color-texto-principal;
+                          font-size: 40px;
+                          }
+                    }
+}                            

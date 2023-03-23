@@ -1,0 +1,85 @@
+@media (max-width: 1024px){
+    /* *******************************PAGINA INICIO*****/
+    /* **BARRA DE NAVEGACION*/
+    .navbar-nav a{
+        padding: 5px;
+        font-size: 20px;
+    }
+    /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+    .seccion-1{
+        div{
+            h1{
+                font-size: 45px;
+            } 
+        }
+    }  
+    .novedades {
+        font-size: 35px;
+        } 
+        .seccion-3 p{
+            font-size: 22px;  
+        }
+/* *******************************PAGINA INICIO QUINES SOMOS*/
+/***** sector 1 ******/
+.sec1-quienessomos{
+    padding-top: 2%;
+    div{
+        h2{
+            font-size: 39px;
+        }
+    }
+} 
+/***** sector 2 ******/
+.sec2-quienessomos{
+    div{
+        h2{
+            font-size: 59px;
+            padding-bottom: 9%; 
+        }
+    } 
+    div{
+        img{
+            padding-bottom: 4%; 
+        }
+    }   
+} 
+/* sector 3 */
+.sec3-quienessomos{
+            div{
+                p{
+                    font-size: 20px;
+                    line-height: 36px; 
+                }         
+            }
+            
+}
+/* *******************************PAGINA CONTACTO*/ 
+/* sector 1 */
+.sec1-contacto{
+    padding-top: 2%;
+    } 
+/* sector 3 */
+.sec3-contacto{
+    div{
+        flex-direction: column;
+        align-items: center;    
+    }     
+}
+/* LOGO DE WATSSAPP */
+.varWatt img {
+    width: 110px;
+}  
+/* *******************************PAGINA PRODUCTOS*/ 
+.sec1-productos{
+    padding-top: 2%;
+    div{
+        h2{
+            font-size: 39px;
+        }
+    }
+    } 
+/* ****************************FOOTER*******/
+.redes{
+    font-size: 23px;  
+}
+}

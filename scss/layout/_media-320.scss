@@ -1,0 +1,155 @@
+@media (max-width: 320px){
+    .navbar-nav a{ 
+            font-size: 14px;
+    } 
+    .imgLogo{
+        @include medidas (80px,80px);
+    }
+    /* PAGINA INICIO SECCION 1*/
+    .seccion-1{
+                height: auto;
+                gap: 3%;
+    }
+    /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+    .seccion-1{
+        div{
+            h1{
+                font-size: 23px; 
+                
+            } 
+        }
+    } 
+    /* PAGINA INICIO SECCION-3 */
+    .novedades{
+        font-size: 21px;
+        padding: 10px;
+}
+.seccion-3 p{
+font-size: 14px;  
+}
+    .seccion-3 { 
+            @include flex-center;
+            gap: 25px;
+    }
+    /* CIRCULO TAZA - REMERA - ALMOHADON */
+    .seccion-3 img{
+        @include medidas (200px,200px);
+    } 
+    /* LOGO DE WATSSAPP */
+
+        .varWatt img {
+                width: 80px;
+                }
+/********* PAGINA QUIENES SOMOS SECCION-1 */
+    .sec1-quienessomos{
+        div{
+            h1{
+                font-size: 28px;
+            }
+        }
+    } 
+/* PAGINA QUIENES SOMOS SECCION-2 */
+.sec2-quienessomos{
+        @include flex-colum;
+        div{
+            h2{
+                font-size: 30px;
+            }
+        }
+}     
+/* PAGINA QUIENES SOMOS SECCION-3 */
+.sec3-quienessomos{
+    div{
+        p{
+            font-size: 14px;
+            line-height: 25px;  
+        }         
+            p::first-letter{
+                font-size: 25px;
+            }
+    } 
+} 
+/* *********************************PAGINA INICIO CONTACTO*/ 
+.sec1-contacto{
+    margin-bottom: 0;
+    div{
+        h2{
+            font-size: 28px;
+        }  
+    }  
+}   
+/* sector 2 */
+.sec2-contacto{
+    padding-left: 30px;
+    div{
+        a{
+            img{ 
+                @include medidas (90px,90px);
+            } 
+        } 
+    }
+    div{ 
+        p{
+            font-size: 14px;
+        }
+    }     
+} 
+.varContactowatt:hover{
+    @include medidas (110px,110px);
+}
+/* sector 3 */
+.sec3-contacto{
+    gap: 3px;
+    div{    
+        .varAddress{
+            font-size: 14px;   
+        }
+    } 
+        div{
+            .indicaciones-mapa{
+                p{
+                    font-size: 14px;
+                }
+                img{
+                    @include medidas (150px,150px);
+                }
+            }     
+    }   
+    }
+/* *******************************PAGINA PRODUCTOS*/ 
+.sec1-productos{
+    div{
+        h2{
+            font-size: 28px;
+        }
+    }
+} 
+/*
+/* seccion2 */
+.sec2-productos{
+    gap: 30px;
+    padding: 30px;
+    padding-bottom: 10%;
+        div{
+            p{
+                font-size: 14px;
+            }
+        }     
+        img{
+            @include medidas (150px,160px);
+                border: 2px;
+        }
+}    
+/* ****************************FOOTER*******/
+.redes{
+    font-size: 15px; 
+}
+        /* LOGO DE INSTAGRAM */
+        .varInstagram {
+            @include medidas (30px,30px);
+        }
+        /* LOGO DE FACEBOOK */
+        .varFacebook {
+            @include medidas (30px,30px);
+        }  
+} 

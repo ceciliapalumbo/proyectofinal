@@ -1,0 +1,17 @@
+.sec1-fecescpeciales{
+    @extend .sec1-productos;
+    div{
+        h2{
+            @include titulo;
+        }
+    }
+    } 
+/* seccion2 */
+.sec2-fecescpeciales{
+   @extend .sec2-productos;
+   img{
+    border:rgb(245, 178, 223); 
+   }
+}
+
+    

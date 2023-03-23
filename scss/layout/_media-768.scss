@@ -1,0 +1,171 @@
+@media (max-width: 768px){
+    .body {  
+        @include medidas (100%,auto);
+        background-image: url(../assets/foto/fondovertical.jpg);
+        } 
+    .navbar-nav a{  
+                font-size: 18px;
+    } 
+        .imgLogo{
+            @include medidas (90px,90px);
+        }
+/* PAGINA INICIO SECCION 1*/
+    .seccion-1{
+        gap: 4%;
+    }
+/* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+.seccion-1{
+    div{
+        h1{
+            font-size: 27px;
+            padding-top: 10px;
+        } 
+    }
+} 
+/* PAGINA INICIO SECCION-3 */
+.seccion-3 { 
+    gap: 50px;
+    padding-top: 20px;
+    } 
+    .novedades{
+            font-size: 25px;
+            padding: 50px;
+    }
+        .seccion-3 p{
+            font-size: 18px;  
+        }
+/* CIRCULO TAZA - REMERA - ALMOHADON */
+        .seccion-3 img{
+            @include medidas (300px,300px);
+            border-width: 2px;
+        } 
+/* *******************************PAGINA INICIO QUINES SOMOS*/
+.sec1-quienessomos{
+        @include center;
+        padding-top: 1%;
+        div{
+            h1{
+                font-size: 38px;
+            }
+        }
+}  
+/* PAGINA QUIENES SOMOS SECCION-2 */
+.sec2-quienessomos{
+        height: auto;
+        @include flex-colum;
+        gap: 5%;
+    div{
+        h2{
+            font-size: 45px;
+            padding-bottom: 5%; 
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    div{
+        img{
+            padding-bottom: 2%;
+        }
+    }
+}     
+/* PAGINA QUIENES SOMOS SECCION-3 */
+.sec3-quienessomos{
+            div{
+                p{
+                    font-size: 18px;
+                    line-height: 34px; 
+                }         
+            }
+}        
+/* *********************PAGINA INICIO CONTACTO*/
+.sec1-contacto{
+        @include center;
+        padding-top: 1%;
+            div{
+                h2{
+                    font-size: 38px;
+                }  
+            }  
+}              
+/* sector 2 */
+.sec2-contacto{
+        padding-left: 70px;
+        div{
+            a{
+                img{ 
+                    @include medidas (130px,130px);
+                } 
+            } 
+        }
+        div{ 
+            p{
+                font-size: 18px;
+            }
+        }     
+}  
+.varContactowatt:hover{
+    @include medidas (150px,150px);
+} 
+/* *****sector 3 *****/
+.sec3-contacto{
+        gap: 20px;
+            div{
+                .varAddress{
+                    font-size: 18px;
+                    margin-bottom: 2%;
+                }
+            }
+            div{
+                    .indicaciones-mapa{
+                        padding-top: 2%;
+                        p{
+                            font-size: 18px;
+                        }
+                        img{
+                            @include medidas (190px,190px);
+                        }
+                    }     
+            }
+}             
+/* **************************PAGINA PRODUCTOS*/
+.sec1-productos{
+    padding-top: 1%;
+    @include flex(center,center);
+    padding-left: 0;
+    div{
+        h2{
+            font-size: 38px;
+        }
+    }
+}   
+/* seccion2 */
+.sec2-productos{
+            padding-bottom: 8%;
+            gap: 60px;
+        div{
+            p{
+                font-size: 18px;
+            }
+        }     
+        img{
+            @include medidas (170px,180px);
+                border:3px;
+        }
+}   
+/* LOGO DE WATSSAPP */
+.varWatt img {
+    width: 100px;
+}      
+/* ****************************FOOTER*******/
+.redes{
+    font-size: 21px; 
+}
+/* LOGO DE INSTAGRAM */
+.varInstagram {
+    @include medidas (40px,40px);
+}
+/* LOGO DE FACEBOOK */
+.varFacebook {
+    @include medidas (40px,40px);
+}  
+}

@@ -1,0 +1,32 @@
+/* PAGINA INICIO BARRA DE NAVEGACION */
+.header{
+    @include medidas (100%, auto);
+    background-color: $background-header;
+}
+.dropdown-menu{
+    background-color:$background-header;
+}
+.imgLogo{
+    @include medidas (100px,100px);
+}
+.navbar-nav a{   
+    @include redes;
+    color: $color-texto-principal;
+} 
+.navbar-nav a:hover{
+    color: $color-texto-secundario;
+    background-color: $background-footer;
+}
+.dropdown-menu{
+    border: solid 3px rgb(136, 208, 241);
+}
+.navbar-toggler{
+    background-color:$background-footer;
+    margin-right: 2%;
+    padding: 1%;
+    font-size: 18px;
+    border:solid 2px $color-texto-principal;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}

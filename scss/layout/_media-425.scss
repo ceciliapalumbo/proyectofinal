@@ -1,0 +1,120 @@
+@media (max-width: 425px){
+        /* *******************************PAGINA INICIO*****/
+        .navbar-nav a{ 
+            font-size: 16px;
+    } 
+/* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+    .seccion-1{
+        div{
+            h1{
+                font-size: 23px;
+            } 
+        }
+    } 
+    /* PAGINA INICIO SECCION-3 */
+    .seccion-3 { 
+        padding-top: 0px;
+    }
+    .novedades{
+            font-size: 21px;
+            padding: 0px;
+            margin-bottom: 0;
+    } 
+    .seccion-3 p{
+        font-size: 16px;  
+    }
+.art-inicio{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+/* PAGINA QUIENES SOMOS SECCION-1 */
+.sec1-quienessomos{
+    div{
+        h1{
+            font-size: 34px;
+        }
+    }
+} 
+/* PAGINA QUIENES SOMOS SECCION-2 */
+.sec2-quienessomos{
+    div{
+        h2{
+            font-size: 36px;
+        }
+    }
+}   
+/* PAGINA QUIENES SOMOS SECCION-3 */
+.sec3-quienessomos{
+            div{
+                p{
+                    font-size: 16px;
+                    line-height: 32px;
+                }         
+                    p::first-letter{
+                        font-size: 30px;
+                    }
+            } 
+}    
+/* ******************PAGINA INICIO CONTACTO*/
+.sec1-contacto{
+        div{
+            h2{
+                font-size: 34px;
+            }  
+        }  
+}              
+/* sector 2 */
+.sec2-contacto{
+    div{
+        a{
+            img{ 
+                @include medidas (110px,110px);
+            } 
+        } 
+    }
+    div{ 
+        p{
+            font-size: 16px;
+        }
+    }     
+} 
+.varContactowatt:hover{
+    @include medidas (130px,130px);
+} 
+/* sector 3 */
+.sec3-contacto{
+    padding: 5%;
+    div{    
+        .varAddress{
+            font-size: 16px;   
+        }
+    } 
+        div{
+            .indicaciones-mapa{
+                p{
+                    font-size: 16px;
+                }
+                img{
+                    @include medidas (180px,180px);
+                }
+            }     
+    }
+}   
+/* *******************************PAGINA PRODUCTOS*/ 
+.sec1-productos{
+
+    div{
+        h2{
+            font-size: 34px;
+        }
+    }
+} 
+/* LOGO DE WATSSAPP */
+.varWatt img {
+    width: 90px;
+}  
+/* ****************FOOTER*******/
+.redes{
+    font-size: 19px;  
+}
+} 

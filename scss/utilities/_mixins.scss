@@ -1,0 +1,70 @@
+@mixin medidas($width, $height){
+    height: $height;
+    width: $width;
+}
+@mixin medidas-max($max-width, $height){
+    height: $height;
+    max-width: $max-width;
+}
+@mixin margin ($margin-top, $margin-bottom){
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}
+@mixin center{
+    justify-content: center;
+    padding: 0;
+    gap: 0;
+}
+@mixin flex-colum{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-center{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+@mixin flex-cont{
+    display: flex;
+    justify-content: center;
+    } 
+@mixin flex ($align-items, $justyfy-content){
+    display: flex;
+    align-items:$align-items;
+    justify-content:$justyfy-content;
+}
+@mixin grid ($col,$row){
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+}
+@mixin redes{
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+@mixin titulo{
+    font-family: 'Satisfy', cursive;
+    color: $color-texto-titulos;
+}
+@mixin parrafos{
+    font-family: $tipografia-secundaria;
+    color:$color-texto-secundario;
+    font-size: 25px;   
+}
+@mixin titulos-secundarios{
+    font-family:$tipografia-secundaria;
+    color:$color-texto-secundario;
+    font-size: 25px;
+    line-height: 60px; 
+    flex-wrap: wrap; 
+}
+@mixin circulos{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 3px;
+}

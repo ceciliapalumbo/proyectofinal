@@ -1,0 +1,734 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* TIPOGRAFIA 
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Satisfy', cursive;
+*/
+/* BODY */
+.body {
+  height: auto;
+  width: 100%;
+  background-image: url(../assets/foto/fondo.jpg);
+  background-repeat: repeat-x;
+  background-size: cover;
+  flex-wrap: wrap; }
+
+/* LOGO DE WATSSAPP */
+.varWatt {
+  position: fixed;
+  line-height: 55px;
+  bottom: 30px;
+  right: 1%;
+  z-index: 100; }
+
+.varWatt img {
+  width: 140px; }
+
+/* PAGINA INICIO BARRA DE NAVEGACION */
+.header {
+  height: auto;
+  width: 100%;
+  background-color: #b3d4f5; }
+
+.dropdown-menu {
+  background-color: #b3d4f5; }
+
+.imgLogo {
+  height: 100px;
+  width: 100px; }
+
+.navbar-nav a {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  padding-right: 20px;
+  font-weight: bolder;
+  color: #2f0c4c; }
+
+.navbar-nav a:hover {
+  color: #07003d;
+  background-color: #e4c1d9; }
+
+.dropdown-menu {
+  border: solid 3px #88d0f1; }
+
+.navbar-toggler {
+  background-color: #e4c1d9;
+  margin-right: 2%;
+  padding: 1%;
+  font-size: 18px;
+  border: solid 2px #2f0c4c; }
+
+.navbar-toggler:focus {
+  box-shadow: none; }
+
+/* PAG INICIO SECCION-1 */
+.seccion-1 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%; }
+  .seccion-1 div h1 {
+    font-family: 'Satisfy', cursive;
+    color: #c06aa5;
+    font-size: 40px;
+    padding-top: 20px; }
+
+/* PAGINA INICIO SECCION-2 */
+.seccion-2 {
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.foto-inicio {
+  height: auto;
+  max-width: 100%; }
+
+/* PAGINA INICIO SECCION-3 */
+.seccion-3 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding-top: 30px;
+  padding-bottom: 5%; }
+
+.novedades {
+  font-family: 'Satisfy', cursive;
+  color: #c06aa5;
+  font-size: 40px;
+  font-weight: bolder; }
+
+/* CIRCULO TAZA - REMERA - ALMOHADON */
+.seccion-3 img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 3px; }
+
+.seccion-3 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fira Sans Condensed", sans-serif;
+  color: #07003d;
+  font-size: 25px; }
+
+.carousel-item {
+  transition: none; }
+
+/***** sector 1 ******/
+.sec1-quienessomos {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 200px;
+  gap: 492px;
+  margin-top: 1%;
+  margin-bottom: 1%; }
+  .sec1-quienessomos div h1 {
+    font-family: 'Satisfy', cursive;
+    color: #c06aa5;
+    font-size: 40px; }
+
+/***** sector 2 ******/
+.sec2-quienessomos {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 6%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+  .sec2-quienessomos div h2 {
+    font-family: 'Satisfy', cursive;
+    color: #c06aa5;
+    color: #2f0c4c;
+    padding-bottom: 10%;
+    font-size: 60px; }
+  .sec2-quienessomos div img {
+    height: auto;
+    width: 100%;
+    margin: 0; }
+
+/**
+ * ----------------------------------------
+ * animation rotate-scale-up
+ * ----------------------------------------
+ */
+.rotate-scale-up {
+  -webkit-animation: rotate-scale-up 0.65s linear reverse;
+  animation: rotate-scale-up 0.65s linear reverse; }
+
+@-webkit-keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+    transform: scale(1) rotateZ(0); }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+    transform: scale(2) rotateZ(180deg); }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+    transform: scale(1) rotateZ(360deg); } }
+
+@keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+    transform: scale(1) rotateZ(0); }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+    transform: scale(2) rotateZ(180deg); }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+    transform: scale(1) rotateZ(360deg); } }
+
+/******* sector 3****** */
+.sec3-quienessomos {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+  padding-left: 10%;
+  padding-right: 10%; }
+  .sec3-quienessomos div p {
+    height: auto;
+    width: 100%;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #07003d;
+    font-size: 25px;
+    line-height: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 5%; }
+  .sec3-quienessomos div p::first-letter {
+    color: #2f0c4c;
+    font-size: 40px; }
+
+/* sector 1 */
+.sec1-contacto {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 200px;
+  gap: 555px;
+  flex-wrap: wrap;
+  margin-top: 1%;
+  margin-bottom: 1%; }
+  .sec1-contacto div h2 {
+    font-family: 'Satisfy', cursive;
+    color: #c06aa5;
+    font-size: 40px; }
+
+/* sector 2 */
+.sec2-contacto {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  flex-wrap: wrap; }
+  .sec2-contacto div a img {
+    height: 150px;
+    width: 150px; }
+  .sec2-contacto div p {
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #07003d;
+    font-size: 25px; }
+
+.varContactowatt:hover {
+  height: 170px;
+  width: 170px; }
+
+/* sector 3 */
+.sec3-contacto {
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 3%; }
+  .sec3-contacto div .varAddress {
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #07003d;
+    font-size: 25px;
+    margin-bottom: 7%; }
+  .sec3-contacto div {
+    display: flex; }
+    .sec3-contacto div .sec3-mapa {
+      height: auto;
+      max-width: 100%;
+      border: solid 2px #0b5688; }
+    .sec3-contacto div .indicaciones-mapa {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      padding-left: 2%;
+      padding-top: 4%; }
+      .sec3-contacto div .indicaciones-mapa p {
+        font-family: "Fira Sans Condensed", sans-serif;
+        color: #07003d;
+        font-size: 25px; }
+      .sec3-contacto div .indicaciones-mapa img {
+        height: 200px;
+        width: 200px; }
+
+.sec1-productos, .sec1-fecescpeciales {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 200px;
+  margin-top: 1%;
+  margin-bottom: 5%; }
+  .sec1-productos div h2, .sec1-fecescpeciales div h2 {
+    font-family: 'Satisfy', cursive;
+    color: #c06aa5;
+    font-size: 40px; }
+
+/* seccion2 */
+.sec2-productos, .sec2-fecescpeciales {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 5%; }
+  .sec2-productos div, .sec2-fecescpeciales div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none; }
+    .sec2-productos div img, .sec2-fecescpeciales div img {
+      height: 290px;
+      width: 280px;
+      display: flex;
+      border: solid 3px #88d0f1; }
+    .sec2-productos div p, .sec2-fecescpeciales div p {
+      font-family: "Fira Sans Condensed", sans-serif;
+      color: #07003d;
+      font-size: 25px;
+      font-size: 20px;
+      display: flex;
+      justify-content: center; }
+    .sec2-productos div a, .sec2-fecescpeciales div a {
+      font-family: "Fira Sans Condensed", sans-serif;
+      color: #07003d;
+      font-size: 25px;
+      font-size: 15px; }
+    .sec2-productos div .btn, .sec2-fecescpeciales div .btn {
+      background-color: #88d0f1; }
+    .sec2-productos div .btn:hover, .sec2-fecescpeciales div .btn:hover {
+      background-color: #f5b2df;
+      color: #14146b; }
+
+.sec1-fecescpeciales div h2 {
+  font-family: 'Satisfy', cursive;
+  color: #c06aa5; }
+
+/* seccion2 */
+.sec2-fecescpeciales img {
+  border: #f5b2df; }
+
+.grid-footer {
+  height: auto;
+  width: 100%;
+  background-color: #e4c1d9;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto; }
+
+.grid-instagram {
+  grid-column: 1; }
+
+.grid-redes {
+  grid-column: 2; }
+
+.grid-face {
+  grid-column: 3; }
+
+/* LOGO DE INSTAGRAM */
+.varInstagram {
+  height: 60px;
+  width: 60px; }
+
+/* LOGO DE FACEBOOK */
+.varFacebook {
+  height: 60px;
+  width: 60px; }
+
+.redes {
+  color: #2f0c4c;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  padding-right: 20px;
+  font-weight: bolder; }
+
+@media (max-width: 1024px) {
+  /* *******************************PAGINA INICIO*****/
+  /* **BARRA DE NAVEGACION*/
+  .navbar-nav a {
+    padding: 5px;
+    font-size: 20px; }
+  /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+  .seccion-1 div h1 {
+    font-size: 45px; }
+  .novedades {
+    font-size: 35px; }
+  .seccion-3 p {
+    font-size: 22px; }
+  /* *******************************PAGINA INICIO QUINES SOMOS*/
+  /***** sector 1 ******/
+  .sec1-quienessomos {
+    padding-top: 2%; }
+    .sec1-quienessomos div h2 {
+      font-size: 39px; }
+  /***** sector 2 ******/
+  .sec2-quienessomos div h2 {
+    font-size: 59px;
+    padding-bottom: 9%; }
+  .sec2-quienessomos div img {
+    padding-bottom: 4%; }
+  /* sector 3 */
+  .sec3-quienessomos div p {
+    font-size: 20px;
+    line-height: 36px; }
+  /* *******************************PAGINA CONTACTO*/
+  /* sector 1 */
+  .sec1-contacto {
+    padding-top: 2%; }
+  /* sector 3 */
+  .sec3-contacto div {
+    flex-direction: column;
+    align-items: center; }
+  /* LOGO DE WATSSAPP */
+  .varWatt img {
+    width: 110px; }
+  /* *******************************PAGINA PRODUCTOS*/
+  .sec1-productos, .sec1-fecescpeciales {
+    padding-top: 2%; }
+    .sec1-productos div h2, .sec1-fecescpeciales div h2 {
+      font-size: 39px; }
+  /* ****************************FOOTER*******/
+  .redes {
+    font-size: 23px; } }
+
+@media (max-width: 768px) {
+  .body {
+    height: auto;
+    width: 100%;
+    background-image: url(../assets/foto/fondovertical.jpg); }
+  .navbar-nav a {
+    font-size: 18px; }
+  .imgLogo {
+    height: 90px;
+    width: 90px; }
+  /* PAGINA INICIO SECCION 1*/
+  .seccion-1 {
+    gap: 4%; }
+  /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+  .seccion-1 div h1 {
+    font-size: 27px;
+    padding-top: 10px; }
+  /* PAGINA INICIO SECCION-3 */
+  .seccion-3 {
+    gap: 50px;
+    padding-top: 20px; }
+  .novedades {
+    font-size: 25px;
+    padding: 50px; }
+  .seccion-3 p {
+    font-size: 18px; }
+  /* CIRCULO TAZA - REMERA - ALMOHADON */
+  .seccion-3 img {
+    height: 300px;
+    width: 300px;
+    border-width: 2px; }
+  /* *******************************PAGINA INICIO QUINES SOMOS*/
+  .sec1-quienessomos {
+    justify-content: center;
+    padding: 0;
+    gap: 0;
+    padding-top: 1%; }
+    .sec1-quienessomos div h1 {
+      font-size: 38px; }
+  /* PAGINA QUIENES SOMOS SECCION-2 */
+  .sec2-quienessomos {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%; }
+    .sec2-quienessomos div h2 {
+      font-size: 45px;
+      padding-bottom: 5%;
+      padding-left: 0;
+      padding-right: 0; }
+    .sec2-quienessomos div img {
+      padding-bottom: 2%; }
+  /* PAGINA QUIENES SOMOS SECCION-3 */
+  .sec3-quienessomos div p {
+    font-size: 18px;
+    line-height: 34px; }
+  /* *********************PAGINA INICIO CONTACTO*/
+  .sec1-contacto {
+    justify-content: center;
+    padding: 0;
+    gap: 0;
+    padding-top: 1%; }
+    .sec1-contacto div h2 {
+      font-size: 38px; }
+  /* sector 2 */
+  .sec2-contacto {
+    padding-left: 70px; }
+    .sec2-contacto div a img {
+      height: 130px;
+      width: 130px; }
+    .sec2-contacto div p {
+      font-size: 18px; }
+  .varContactowatt:hover {
+    height: 150px;
+    width: 150px; }
+  /* *****sector 3 *****/
+  .sec3-contacto {
+    gap: 20px; }
+    .sec3-contacto div .varAddress {
+      font-size: 18px;
+      margin-bottom: 2%; }
+    .sec3-contacto div .indicaciones-mapa {
+      padding-top: 2%; }
+      .sec3-contacto div .indicaciones-mapa p {
+        font-size: 18px; }
+      .sec3-contacto div .indicaciones-mapa img {
+        height: 190px;
+        width: 190px; }
+  /* **************************PAGINA PRODUCTOS*/
+  .sec1-productos, .sec1-fecescpeciales {
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0; }
+    .sec1-productos div h2, .sec1-fecescpeciales div h2 {
+      font-size: 38px; }
+  /* seccion2 */
+  .sec2-productos, .sec2-fecescpeciales {
+    padding-bottom: 8%;
+    gap: 60px; }
+    .sec2-productos div p, .sec2-fecescpeciales div p {
+      font-size: 18px; }
+    .sec2-productos img, .sec2-fecescpeciales img {
+      height: 180px;
+      width: 170px;
+      border: 3px; }
+  /* LOGO DE WATSSAPP */
+  .varWatt img {
+    width: 100px; }
+  /* ****************************FOOTER*******/
+  .redes {
+    font-size: 21px; }
+  /* LOGO DE INSTAGRAM */
+  .varInstagram {
+    height: 40px;
+    width: 40px; }
+  /* LOGO DE FACEBOOK */
+  .varFacebook {
+    height: 40px;
+    width: 40px; } }
+
+@media (max-width: 425px) {
+  /* *******************************PAGINA INICIO*****/
+  .navbar-nav a {
+    font-size: 16px; }
+  /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+  .seccion-1 div h1 {
+    font-size: 23px; }
+  /* PAGINA INICIO SECCION-3 */
+  .seccion-3 {
+    padding-top: 0px; }
+  .novedades {
+    font-size: 21px;
+    padding: 0px;
+    margin-bottom: 0; }
+  .seccion-3 p {
+    font-size: 16px; }
+  .art-inicio {
+    padding-bottom: 0;
+    margin-bottom: 0; }
+  /* PAGINA QUIENES SOMOS SECCION-1 */
+  .sec1-quienessomos div h1 {
+    font-size: 34px; }
+  /* PAGINA QUIENES SOMOS SECCION-2 */
+  .sec2-quienessomos div h2 {
+    font-size: 36px; }
+  /* PAGINA QUIENES SOMOS SECCION-3 */
+  .sec3-quienessomos div p {
+    font-size: 16px;
+    line-height: 32px; }
+  .sec3-quienessomos div p::first-letter {
+    font-size: 30px; }
+  /* ******************PAGINA INICIO CONTACTO*/
+  .sec1-contacto div h2 {
+    font-size: 34px; }
+  /* sector 2 */
+  .sec2-contacto div a img {
+    height: 110px;
+    width: 110px; }
+  .sec2-contacto div p {
+    font-size: 16px; }
+  .varContactowatt:hover {
+    height: 130px;
+    width: 130px; }
+  /* sector 3 */
+  .sec3-contacto {
+    padding: 5%; }
+    .sec3-contacto div .varAddress {
+      font-size: 16px; }
+    .sec3-contacto div .indicaciones-mapa p {
+      font-size: 16px; }
+    .sec3-contacto div .indicaciones-mapa img {
+      height: 180px;
+      width: 180px; }
+  /* *******************************PAGINA PRODUCTOS*/
+  .sec1-productos div h2, .sec1-fecescpeciales div h2 {
+    font-size: 34px; }
+  /* LOGO DE WATSSAPP */
+  .varWatt img {
+    width: 90px; }
+  /* ****************FOOTER*******/
+  .redes {
+    font-size: 19px; } }
+
+@media (max-width: 320px) {
+  .navbar-nav a {
+    font-size: 14px; }
+  .imgLogo {
+    height: 80px;
+    width: 80px; }
+  /* PAGINA INICIO SECCION 1*/
+  .seccion-1 {
+    height: auto;
+    gap: 3%; }
+  /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+  .seccion-1 div h1 {
+    font-size: 23px; }
+  /* PAGINA INICIO SECCION-3 */
+  .novedades {
+    font-size: 21px;
+    padding: 10px; }
+  .seccion-3 p {
+    font-size: 14px; }
+  .seccion-3 {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 25px; }
+  /* CIRCULO TAZA - REMERA - ALMOHADON */
+  .seccion-3 img {
+    height: 200px;
+    width: 200px; }
+  /* LOGO DE WATSSAPP */
+  .varWatt img {
+    width: 80px; }
+  /********* PAGINA QUIENES SOMOS SECCION-1 */
+  .sec1-quienessomos div h1 {
+    font-size: 28px; }
+  /* PAGINA QUIENES SOMOS SECCION-2 */
+  .sec2-quienessomos {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .sec2-quienessomos div h2 {
+      font-size: 30px; }
+  /* PAGINA QUIENES SOMOS SECCION-3 */
+  .sec3-quienessomos div p {
+    font-size: 14px;
+    line-height: 25px; }
+  .sec3-quienessomos div p::first-letter {
+    font-size: 25px; }
+  /* *********************************PAGINA INICIO CONTACTO*/
+  .sec1-contacto {
+    margin-bottom: 0; }
+    .sec1-contacto div h2 {
+      font-size: 28px; }
+  /* sector 2 */
+  .sec2-contacto {
+    padding-left: 30px; }
+    .sec2-contacto div a img {
+      height: 90px;
+      width: 90px; }
+    .sec2-contacto div p {
+      font-size: 14px; }
+  .varContactowatt:hover {
+    height: 110px;
+    width: 110px; }
+  /* sector 3 */
+  .sec3-contacto {
+    gap: 3px; }
+    .sec3-contacto div .varAddress {
+      font-size: 14px; }
+    .sec3-contacto div .indicaciones-mapa p {
+      font-size: 14px; }
+    .sec3-contacto div .indicaciones-mapa img {
+      height: 150px;
+      width: 150px; }
+  /* *******************************PAGINA PRODUCTOS*/
+  .sec1-productos div h2, .sec1-fecescpeciales div h2 {
+    font-size: 28px; }
+  /*
+/* seccion2 */
+  .sec2-productos, .sec2-fecescpeciales {
+    gap: 30px;
+    padding: 30px;
+    padding-bottom: 10%; }
+    .sec2-productos div p, .sec2-fecescpeciales div p {
+      font-size: 14px; }
+    .sec2-productos img, .sec2-fecescpeciales img {
+      height: 160px;
+      width: 150px;
+      border: 2px; }
+  /* ****************************FOOTER*******/
+  .redes {
+    font-size: 15px; }
+  /* LOGO DE INSTAGRAM */
+  .varInstagram {
+    height: 30px;
+    width: 30px; }
+  /* LOGO DE FACEBOOK */
+  .varFacebook {
+    height: 30px;
+    width: 30px; } }

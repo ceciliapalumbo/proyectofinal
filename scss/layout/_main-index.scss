@@ -1,0 +1,49 @@
+/* PAG INICIO SECCION-1 */
+.seccion-1{
+    @include medidas (100%,auto);
+    @include flex(center,center);
+    gap: 5%;
+    div{
+        h1{
+            @include titulo;
+            font-size: 40px; 
+            padding-top: 20px;
+        } 
+    }
+}           
+/* PAGINA INICIO SECCION-2 */
+.seccion-2 { 
+    @include medidas-max(100%,auto);
+    @include flex(center, center);
+    flex-wrap: wrap;
+} 
+    .foto-inicio{
+            @include medidas-max (100%,auto);
+    }
+
+/* PAGINA INICIO SECCION-3 */
+.seccion-3 { 
+    @include medidas (100%,auto);
+    @include flex(center, center);
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 30px;
+    padding-bottom: 5%;
+}
+.novedades{
+    @include titulo;
+    font-size: 40px;  
+    font-weight: bolder;
+}
+/* CIRCULO TAZA - REMERA - ALMOHADON */
+.seccion-3 img{
+    @include medidas (400px,400px);
+    @include circulos;
+} 
+.seccion-3 p{
+    @include flex(center, center);
+    @include parrafos;
+}
+.carousel-item{
+    transition: none;
+}

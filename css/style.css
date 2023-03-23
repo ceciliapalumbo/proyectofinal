@@ -462,8 +462,7 @@ font-family: 'Satisfy', cursive;
     gap: 4%; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
   .seccion-1 div h1 {
-    font-size: 27px;
-    padding-top: 10px; }
+    font-size: 27px; }
   /* PAGINA INICIO SECCION-3 */
   .seccion-3 {
     gap: 50px;

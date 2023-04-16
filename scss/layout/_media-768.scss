@@ -31,14 +31,14 @@
             font-size: 34px;
             padding: 0;
     }
-        .seccion-3 p{
-            font-size: 18px;  
-        }
-/* CIRCULO TAZA - REMERA - ALMOHADON */
+/*seccion 3 */
         .seccion-3 img{
             @include medidas (300px,300px);
             border-width: 2px;
         } 
+        .btn{
+            font-size: 18px; 
+        }
 /* *******************************PAGINA INICIO QUINES SOMOS*/
 .sec1-quienessomos{
         @include center;

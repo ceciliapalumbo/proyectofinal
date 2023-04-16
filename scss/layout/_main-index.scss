@@ -35,10 +35,10 @@
     font-size: 40px;  
     font-weight: bolder;
 }
-/* CIRCULO TAZA - REMERA - ALMOHADON */
+/*seccion 3*/
 .seccion-3 img{
-    @include medidas (400px,400px);
-    @include circulos;
+    @include medidas (900px,800px);
+    @include borde;
 } 
 .seccion-3 p{
     @include flex(center, center);
@@ -46,4 +46,13 @@
 }
 .carousel-item{
     transition: none;
+}
+.btn{
+    @include flex(center, center);
+    background-color: rgb(136, 208, 241);
+    @include parrafos;
+}
+.btn:hover{
+    background-color:rgb(245, 178, 223) ;
+    color: rgb(20, 20, 107);
 }

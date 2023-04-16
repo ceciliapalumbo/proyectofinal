@@ -62,8 +62,7 @@
     line-height: 60px; 
     flex-wrap: wrap; 
 }
-@mixin circulos{
-    border-radius: 50%;
+@mixin borde{
     border-style: solid;
     border-color: cornflowerblue;
     border-width: 3px;

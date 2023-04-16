@@ -33,7 +33,7 @@
     }
 /*seccion 3 */
         .seccion-3 img{
-            @include medidas (400px,300px);
+            @include medidas (360px,300px);
             border-width: 2px;
         } 
         .btn{

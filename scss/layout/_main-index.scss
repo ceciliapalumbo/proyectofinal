@@ -37,7 +37,7 @@
 }
 /*seccion 3*/
 .seccion-3 img{
-    @include medidas (1000px,800px);
+    @include medidas (900px,800px);
     @include borde;
 } 
 .seccion-3 p{
